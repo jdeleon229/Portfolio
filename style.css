@@ -1,0 +1,33 @@
+header{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
+font-size: 10px;
+background-image: url(https://media.istockphoto.com/illustrations/watercolor-floral-pattern-and-seamless-background-hand-painted-gentle-illustration-id804940766);
+text-align: center;
+}
+.navigationBar {
+display: inline;
+text-align: right;
+list-style: none;
+}
+
+.sub-headers {
+color: pink;
+font-weight: bold;
+font-size: 20px;
+margin-block-start: 500px;
+border-right: green, solid, 40px;
+}
+
+.aboutMe {
+    display: flex;
+    margin-top:20px; 
+    border-left: 200px, black;
+
+}
+.footer {
+    margin:auto;
+    display: inline-flex;
+    text-align: center;
+    list-style: none;
+    color:blueviolet;
+}
