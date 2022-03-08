@@ -1,33 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Garamond;
+    margin:0;
+    background-image: url(https://live.staticflickr.com/8073/8441274425_4887e4bcca_b.jpg);
+}
+
 header{
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
-font-size: 10px;
-background-image: url(https://media.istockphoto.com/illustrations/watercolor-floral-pattern-and-seamless-background-hand-painted-gentle-illustration-id804940766);
-text-align: center;
-}
-.navigationBar {
-display: inline;
-text-align: right;
-list-style: none;
-}
-
-.sub-headers {
-color: pink;
-font-weight: bold;
+display: block;
+padding: 10px;
 font-size: 20px;
-margin-block-start: 500px;
-border-right: green, solid, 40px;
+text-align: center;
+font-family: Monsterrat;
 }
 
-.aboutMe {
-    display: flex;
-    margin-top:20px; 
-    border-left: 200px, black;
+#menu {
+display: flex;
+list-style: none;
+justify-content: right;
+}
 
+
+section {
+    
+    padding: 20px;
+  }
+
+  #aboutMeHeader {
+    float: left;
+    border-style: solid;
+    padding: 10px;
+    color: black;
+    justify-content: center;  
+  }
+.h2 {
+    float: left;
+    border-style: solid;
+    padding: 10px;
+    color: black;
+    justify-content: center;
 }
 .footer {
     margin:auto;
     display: inline-flex;
-    text-align: center;
+    text-align: justify;
     list-style: none;
     color:blueviolet;
+    word-spacing: 30px;
 }
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    width: auto;
+}
+
+/* Image Placeholders */
+.sample-img {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+    border: 1px solid black;
+  }
+
+/* unvisited link */
+a:link {
+    color: green;
+  }
+
+  /* visited link */
+a:visited {
+    color: blueviolet;
+  }

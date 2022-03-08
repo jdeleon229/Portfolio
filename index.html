@@ -2,16 +2,17 @@
 <html lang="en-US">
 
 <head>
+    <title>Jocelin de Leon's Portfolio</title>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css">
 </head>
-<title>Jocelin de Leon's</title>
 
 <body>
     <header>
         <h1>Welcome to my Portfolio</h1>
         <nav>
-            <ul class="navigationBar">
+            <ul id="menu">
                 <li> <a href="#">About Me</a></li>
                 <li> <a href="#">Work</a></li>
                 <li> <a href="mailto:deleon.joc@gmail.com">Contact</a></li>
@@ -19,42 +20,50 @@
         </nav>
     </header>
 
-    <main>
-        <section class="aboutMe">
-            <h2 >About Me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptatum voluptatibus minima magni
-                ducimus, harum at aperiam nulla labore magnam voluptas deserunt sapiente temporibus ratione earum
-                tempore nihil perspiciatis! A?</p>
-        </section>
-        <br>
+
+    <main class="flexContainer">
         <section>
-            <h3 class="sub-headers">Work</h3>
+            <h2 id="aboutMeHeader">About Me</h2>
+            <a href="#aboutMeHeader" About Me></a>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptatum voluptatibus minima magni
                 ducimus, harum at aperiam nulla labore magnam voluptas deserunt sapiente temporibus ratione earum
                 tempore nihil perspiciatis! A?</p>
-                <div class="grid">
-                    <div class="box">
-                        
-                    </div>
-                </div>
-                
+            <div>
+                <img class="images" src="books.jpg" alt="Watercolor books in a stack">
+            </div>
+
         </section>
-        <br>
+
+        <br />
         <section>
-            <h4 class="sub-headers">Contact Me</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptatum voluptatibus minima magni
-                ducimus, harum at aperiam nulla labore magnam voluptas deserunt sapiente temporibus ratione earum
-                tempore nihil perspiciatis! A?</p>
+            <h2 class="h2">Work</h2>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus possimus repellat assumenda eum
+                veritatis itaque commodi, dignissimos hic obcaecati placeat impedit at modi reiciendis eaque vero sequi
+                maiores perferendis nulla!</p>
+            <div class="sample-img">Image</div>
+
         </section>
-        
+
+        <br />
+        <section>
+            <h2 class="h2">Contact Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa id autem recusandae dolorem optio officia
+                eum nisi, aperiam ea doloremque necessitatibus cumque at suscipit vitae voluptatibus adipisci labore,
+                eius tenetur!</p>
+            <div class="sample-img">Image</div>
+        </section>
+
+        <br>
+
+
     </main>
 
 </body>
-
+<hr>
 <footer>
     <ul class="footer">
-        <li> <a href="https://github.com/jdeleon229">Github</a></li>
-        <li> <a href="#">Portfolio</a></li>
+        <li> <a href="https://github.com/jdeleon229" target="_blank">Github</a></li>
+        <li> <a href="https://jdeleon229.github.io/Portfolio/" target="_blank">Portfolio</a></li>
         <li> <a href="mailto:deleon.joc@gmail.com">Contact</a></li>
     </ul>
 </footer>
